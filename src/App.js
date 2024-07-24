@@ -46,6 +46,7 @@ function App() {
          element={ <TextForm heading="Enter the text to analyze" mode={mode} showAlert={showAlert}  />}
       />
     <Route path="/about" element={<About mode={mode}/>} />
+          <Route path="*" element={<home/>} />
           
           
         </Routes>
